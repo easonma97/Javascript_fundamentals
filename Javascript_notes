@@ -1,0 +1,17 @@
+JavaScript has dynamic typing. 
+We don't have to manually define the data type of the value stored in a variable. 
+Instead, data types are determined automatically.
+
+Let/Const/Var
+Let: define dynamic variable. Const: Define constant variable, need to be initialized, never change.
+
+Operator Precedence
+e.g. () > +,-,x,/ ...
+
+Template literals (ES6)
+`... ${...}, ${...}`
+`String
+multiple
+lines` 
+don't need to use \n to create a new line
+
