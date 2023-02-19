@@ -15,3 +15,14 @@ multiple
 lines` 
 don't need to use \n to create a new line
 
+Type conversion
+Three types: To a Number, To a String, To a Boolean
+NaN = "Not a Number"
+
+Type coercion
+console.log('I am ' + 23 + ' years old')
+
+5 falsy values: 0, '', undefined, null, NaN -- they become false when converted to boolean
+Empty object is also a truthy value
+
+'===' does not perform type coercion
