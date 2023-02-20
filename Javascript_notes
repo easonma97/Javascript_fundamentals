@@ -26,3 +26,13 @@ console.log('I am ' + 23 + ' years old')
 Empty object is also a truthy value
 
 '===' does not perform type coercion
+
+Expression n statement:
+Expression: 3 + 4 / simple value: 1991/ true && false && !False
+Statement: if else / switch statement
+
+Ternary Operator [can be used to define value]:
+const age = 23;
+age >= 18 ? console.log('I like to drink alchol') : console.log('I like soft drink');
+
+ES5, ES6, ESNEXT: [backwards compatibility] [Old features are never removed so websites keep working forever]
