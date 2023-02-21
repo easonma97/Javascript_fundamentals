@@ -1,0 +1,53 @@
+'use strict'; strict mode activited at the beginning of each script.
+
+function declarations vs expressions
+
+// Function declaration [can access it before initialization]
+function calcAge1(birthYear){
+  return xx - xx;
+}
+const age = calcAge1(birthyear)
+
+// Function expression 
+const calcAge2 = function (birthYear) {...}
+const age2 = calcAge2(birthYear)
+
+Arrow function
+const calcAge3 = birthYear => 2023 - birthYear; 
+const age3 = calcAge3(1990);
+console.log(age3);
+
+An array is not a primitive value, it is immutable
+
+Array method:
+push - add element to the end of array
+     - return the length of the new array
+const friends = ['A', 'B'];
+friends.push('C');
+
+unshift - add element to the beginning of array
+        - return the length of the new array
+        
+pop - remove the last element of the array
+    - return the removed element
+
+shift - remove the first element of the array
+      - return the removed element
+
+indexOf - return the index of the array
+
+includes - return true if the element is in the array [do not do type coersion]
+
+Object: key - value pairs
+const jonas = {
+  firstName : 'Jonas',
+  lastName : 'Schemdtmann',
+  age: 2020 - 1000,
+  jobs: xxx,
+  friends: ['a', 'b', 'c']
+};
+
+Retrieve data from object
+dot notation: jonas.lastName / brackets notation: jonas['jobs'] (easy to create the string and access object)
+
+
