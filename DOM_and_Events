@@ -1,0 +1,10 @@
+Live Server: Server on Portal 5050
+
+querySelector: select the element 
+. : class selector
+DOM and DOM manupilation: Tree structure
+DOM methods and properties for DOM Manipulation is not part of JS
+
+CSS style in Javascipt should be in camelCase, and the answer should be in string
+remove() function doesn't need to use the class selector
+
