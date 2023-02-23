@@ -6,5 +6,5 @@ DOM and DOM manupilation: Tree structure
 DOM methods and properties for DOM Manipulation is not part of JS
 
 CSS style in Javascipt should be in camelCase, and the answer should be in string
-remove() function doesn't need to use the class selector
-
+remove() function doesn't need to use class selector
+getElementById() function doesn't need to use class selector
