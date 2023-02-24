@@ -1,0 +1,15 @@
+JavaScript is a [9] language.
+1. high-level
+2. Garbage-collected
+3. Interpreted or just-in-time compiled
+4. Multi-paradigm
+5. Prototype-based object-oriented
+6. First-class functions
+7. Dynamic
+8. Single-threaded
+9. Non-blocking event loop
+
+Interpretation:
+1. Low-level: C // High-Level: Python, JS
+2. Cleaning the memory
+4. Paradigm: An approach and mindset of structuring code, which will direct your coding style and technique.
