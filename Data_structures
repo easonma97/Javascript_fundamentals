@@ -20,7 +20,15 @@ Iterables are arrays, strings, maps, sets. Not objects.
 const str = 'Jonas';
 const letters = [...str, ' ', 'S.']; 
 ================
-// SPREAD, because on Right side of equal sign
+// SPREAD, because on Right side of equal sign, unpack things from array
 const arr = [1,2, ...[3,4]];
-// REST, because on Left side of equal sign
+// REST, because on Left side of equal sign, pack things into array
 const [a, b, ...others] = [1, 2, 3, 4, 5];
+The Rest element must be the last element
+Spread operator is used where we would otherwise write values, separated by a comma.
+Rest operator is used where we would otherwise write variable names, separated by a comma.
+=================
+Short Circuiting (&& and ||)
+console.log(3 || 'Jonas')  --3 -- for OR operator: it will return the first truthy value.
+const a = xx || 10;
+console.log(0 && 'Jonas') --0 -- for AND operator: it will return the first falsy value. 
