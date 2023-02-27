@@ -1,1 +1,26 @@
-destructing: [A, B] = [B, A]
+destructing: [A, B] = [B, A] / [A, , C] = [A, B, C]
+
+To destructure object, use curly braces:
+const {name, openingHours, categories} = restaurant;
+
+Can pass one object into the argument of the function, it will auto-destructing.
+=================
+Spread Operator ...
+unpacking all the array elements at once
+const arr = [7, 8, 9]
+const newArr = [1,2, ...arr]
+
+Shallow Copy array
+const mainMenuCopy = [...restaurant.mainMenu];
+
+Join 2 arrays
+const menu = [...restaurant.mainMenu, ...restaurant.starterMenu];
+
+Iterables are arrays, strings, maps, sets. Not objects.
+const str = 'Jonas';
+const letters = [...str, ' ', 'S.']; 
+================
+// SPREAD, because on Right side of equal sign
+const arr = [1,2, ...[3,4]];
+// REST, because on Left side of equal sign
+const [a, b, ...others] = [1, 2, 3, 4, 5];
