@@ -32,3 +32,19 @@ Short Circuiting (&& and ||)
 console.log(3 || 'Jonas')  --3 -- for OR operator: it will return the first truthy value.
 const a = xx || 10;
 console.log(0 && 'Jonas') --0 -- for AND operator: it will return the first falsy value. 
+=================
+?? Nullish: Null and undefined, in this case 0 or '' is truthy value as well
+=================
+const rest1 = {
+  name: 'Capri',
+  numGuests: 20,
+};
+
+const rest2 = {
+  name: 'La Piazza',
+  owner: 'Rossi',
+};
+
+rest1.numGuests = rest1.numGuests || 10  === rest1.numGuests ||= 10;
+rest2.numGuests = rest2.numGuests || 10  === rest2.numGuests ||= 10;
+
