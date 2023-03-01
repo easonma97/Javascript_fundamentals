@@ -50,3 +50,29 @@ rest2.numGuests = rest2.numGuests || 10  === rest2.numGuests ||= 10;
 ===============
 For-of Loop
 for(const item of menu) console.log(item);
+===============
+Modern operators and strings
+1. From the program itself: Data written directly in source code (e.g. status messages)
+2. From the UI: Data input from the user or data written in DOM (e.g tasks in todo app)
+3. From external sources: Data fetched for example from web API (e.g. recipe obejcts)
+After collection of data, decide what data structure we should use.
+Simple list? arrays or sets
+Key/Value pairs? objects or maps -> keys allow us to describe values
+=================
+Arrays vs Sets
+Arrays - 1. Use when you need ordered list of values (might contain duplicates)
+         2. Use when you need to manipulate data
+Sets   - 1. Use when you need to work with unique values
+         2. Use when high-performance is really important
+         3. Use to remove duplicates from arrays
+         
+Objects vs Maps
+Objects - 1. More "Traditioanl" key/value store
+          2. Easier to write and access values with . and []
+          
+Maps  - 1. Better performance
+        2. Keys can have any data type
+        3. Easy to iterate
+        4. Easy to compute size
+
+
