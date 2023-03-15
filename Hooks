@@ -1,1 +1,20 @@
-Happy Hacking!
+Handling Events?
+
+<Event and State>
+props start with 'on', e.g. onClick, onSubmit
+E.g. onClick can let you make declarative stament on DOM EventListener
+
+What is hooks?
+useState, useEffect
+* must be called directly inside the component function
+
+useState with object initialized, how to make sure values inside the object will not get lost?
+const [userInput, setUserInput] = useState({
+  x : xx,
+  y : yy,
+  z : zz
+});
+setUserInput({
+  ...userInput,
+  x : xxx
+})
