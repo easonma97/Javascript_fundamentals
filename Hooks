@@ -18,3 +18,5 @@ setUserInput({
   ...userInput,
   x : xxx
 })
+
+CSS property name in JSX, all are camelCase.
