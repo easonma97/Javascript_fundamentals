@@ -26,4 +26,8 @@ CSS property name in JSX, all are camelCase.
 React.Fragment can reduce unnecessary div element.
 
 - Getting a Cleaner DOM with Portals
+ReactDOM.createPortal(<.. />, document.getElementById('..')) Move the html element of a particular react component to other places.
+Semantically more correct html code
+
 - Working with Refs
+If you want to read the value, ref can be better than state
