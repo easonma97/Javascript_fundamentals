@@ -31,3 +31,17 @@ Semantically more correct html code
 
 - Working with Refs
 If you want to read the value, ref can be better than state
+
+Effects, Reducers & Context
+- Working with (Side) Effects
+1.Store Data in Browser Storage
+2.Send Http Requests to Backend Servers
+3.Set & Manage Timers
+There tasks must happen outside of the normal component evaluation and render cycle.
+
+UseEffect: (function, dependencies)
+You must add all "things" you use in your effect function if those "things" could change because your component (or some parent component) re-rendered. 
+
+- Managing more Complex State with Reducers
+- Managing App-Wide ore Component-Wide State with Context
+
