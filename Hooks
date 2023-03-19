@@ -54,3 +54,8 @@ const [state, dispatchFn] = useReducer(reducerFn, initialState, initFn);
 
 - Managing App-Wide ore Component-Wide State with Context
 React Context is Not optimized for high frequency changes!
+
+Rules of Hooks:
+1. Only call React Hooks in React Funtions -- React Component Functions or Custom Hooks
+2. Only call React Hooks at the Top Level -- Don't call them in nested functions and Don't call them in any block statments
+3. Always add everything you refer to inside of useEffect() as a dependency!
