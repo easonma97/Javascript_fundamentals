@@ -53,4 +53,4 @@ Tips for the effect function: adding nested properties as dependencies to useEff
 const [state, dispatchFn] = useReducer(reducerFn, initialState, initFn);
 
 - Managing App-Wide ore Component-Wide State with Context
-
+React Context is Not optimized for high frequency changes!
