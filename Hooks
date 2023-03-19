@@ -47,6 +47,10 @@ You also DON'T need to add variables or functions you might've defined OUTSIDE o
 
 return in useEffect: clean up any resources that were created or used by the side effect
 
+Tips for the effect function: adding nested properties as dependencies to useEffect
+
 - Managing more Complex State with Reducers
+const [state, dispatchFn] = useReducer(reducerFn, initialState, initFn);
+
 - Managing App-Wide ore Component-Wide State with Context
 
