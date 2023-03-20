@@ -19,7 +19,7 @@ setUserInput({
   x : xxx
 })
 
-CSS property name in JSX, all are camelCase.
+CSS property name in JSX, all are camelCase. [class -> className; for -> htmlFor]
 
 - JSX Limitations & Fragments
 * can't return more than one "root" JSX element.  -solution: always wrap adjacent elements
