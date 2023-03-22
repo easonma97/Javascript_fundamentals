@@ -1,1 +1,6 @@
-How React Works?
+How React Works behind the scene?
+Understanding Virtual DOM & DOM Updates
+Understanding State and State Updates
+
+Re-Evaluating Components !== Re-Rendering the DOM
+If a parent component is re-evaluated, all child components are re-evaluated as well.
