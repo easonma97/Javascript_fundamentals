@@ -6,3 +6,12 @@ Re-Evaluating Components !== Re-Rendering the DOM
 If a parent component is re-evaluated, all child components are re-evaluated as well -- Isn't this bad? 
 -- It is a waste if child component didn't change anything but still being evaluated
 
+React.memo() --> optimize functional component. Check the new value for the props, and compare it for the old props, re-evaluate only props change.
+
+useCallBack --> HOOK allows us store a function across component execution.
+useCallBack(() => {}, [])
+
+State Updates & Scheduling
+You can have multiple state changes at the same time, that's why get the latest previous state matters! setState(prevState => {})
+
+useMemo(() => {}, []) --> memorize any date you want to store.
