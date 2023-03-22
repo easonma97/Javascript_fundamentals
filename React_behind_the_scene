@@ -3,4 +3,6 @@ Understanding Virtual DOM & DOM Updates
 Understanding State and State Updates
 
 Re-Evaluating Components !== Re-Rendering the DOM
-If a parent component is re-evaluated, all child components are re-evaluated as well.
+If a parent component is re-evaluated, all child components are re-evaluated as well -- Isn't this bad? 
+-- It is a waste if child component didn't change anything but still being evaluated
+
