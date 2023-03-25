@@ -59,3 +59,7 @@ Rules of Hooks:
 1. Only call React Hooks in React Funtions -- React Component Functions or Custom Hooks
 2. Only call React Hooks at the Top Level -- Don't call them in nested functions and Don't call them in any block statments
 3. Always add everything you refer to inside of useEffect() as a dependency!
+
+Use useRef or state when using a form ..?
+useRef: when you don't need to validate the keystroke 
+state: need to balidate the keystorke and set it to default after submission
